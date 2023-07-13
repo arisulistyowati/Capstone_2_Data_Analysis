@@ -109,18 +109,18 @@ Pola perjalanan taksi cenderung terkait dengan aktivitas sehari-hari, hal ini di
 
 # **Rekomendasi**
 #### 1. Fokus pada daerah populer
-    - Perusahaan dapat mengalokasikan lebih banyak armada di daerah Manhattan dengan zona East Harlem North dan East Harlem South
+- Perusahaan dapat mengalokasikan lebih banyak armada di daerah Manhattan dengan zona East Harlem North dan East Harlem South
 #### 2. Peningkatan layanan *Street-hail*
-    - Tipe perjalanan ini dominan, diharapkan perushaan meningkatkan layanan dan ketersediaan taksi di jalan.
+- Tipe perjalanan ini dominan, diharapkan perushaan meningkatkan layanan dan ketersediaan taksi di jalan.
 #### 3. Memberikan promosi pembayaran
-    - Perusahaan dapat bekerja sama dengan provider mitra credit card untuk memberikan penawaran diskon atau reward khusus bagi para penumpang.
+- Perusahaan dapat bekerja sama dengan provider mitra credit card untuk memberikan penawaran diskon atau reward khusus bagi para penumpang.
 #### 4. Strategi pemasaran yang berbeda untuk setiap **Borough**
-    - Untuk dihari weekdays, promosi lebih kepada individu yang melakukan perjalanan seorang diri seperti, mahasiswa, pekerja atau profesional, yang melakukan perjalanan rutin.
-    - Untuk weekends perusahan dapat menargetkan kelompok pelanggan yang condong untuk bepergian tujuan rekreasi.
+- Untuk dihari weekdays, promosi lebih kepada individu yang melakukan perjalanan seorang diri seperti, mahasiswa, pekerja atau profesional, yang melakukan perjalanan rutin.
+- Untuk weekends perusahan dapat menargetkan kelompok pelanggan yang condong untuk bepergian tujuan rekreasi.
 #### 5. Penawaran paket tour wisata
-    - Seperti perjalanan wisata, perjalanan ke acara khusus, atau penjemputan dari tempat rekreasi populer. Diharapkan dapat meningkatkan minat pelanggan untuk menggunakan taksi.
+- Seperti perjalanan wisata, perjalanan ke acara khusus, atau penjemputan dari tempat rekreasi populer. Diharapkan dapat meningkatkan minat pelanggan untuk menggunakan taksi.
 #### 6. Pengaturan ketersediaan taksi
-    - Perusahaan dapat mengatur jumlah taksi yang tersedia dan waktu tunggu di area-area dengan tingkat peminat yang tinggi diantara pukul 5 pagi hingga 6 pagi.
+- Perusahaan dapat mengatur jumlah taksi yang tersedia dan waktu tunggu di area-area dengan tingkat peminat yang tinggi diantara pukul 5 pagi hingga 6 pagi.
 
 
 
