@@ -1,18 +1,22 @@
 # Capstone_2_Data_Analysis
 <br>
+
 # **Analysis Karakteristik Penumpang Taxi di New York City**
 
 <br>
+
 # **Latar Belakang**
 <br>
 Sebuah perusahaan baru yang bergerak dibidang pengelolaan transportasi umum yakni Green Taxi sedang giat dalam mengembangkan bisnisnya. Oleh karena itu, tim marketing meminta bantuan tim data analyst untuk mengeksplore informasi yang dapat membantu meningkatkan strategi pemasaran yang lebih efektif dan efisien.
 
 <br>
+
 # **Pernyataan Masalah**
 <br>
 Perusahaan ingin mengetahui **bagaimana karakteristik dari penumpang taxi** selama satu bulan terakhir. Informasi ini akan membantu perusahaan memahami profil pelanggan mereka secara lebih baik yang berguna untuk meningkatkan profit. 
 
 <br>
+
 # **Pertanyaan**
 <br>
 1. Daerah mana yang paling banyak pemesanan taksi baik *pickup* maupun *dropoff*?
@@ -22,6 +26,68 @@ Perusahaan ingin mengetahui **bagaimana karakteristik dari penumpang taxi** sela
 
 <br>
 
+# **Data Understanding**
+<br>
+**VendorID** = kode yang menunjukkan penyedia LPEP
+- 1 = Creative Mobile Technologies, LLC.
+- 2 = VeriFone Inc. 
+
+**lpep_pickup_datetime** = Tanggal dan Waktu ketika meteran diaktifkan
+
+**lpep_dropoff_datetime** = Tanggal dan Waktu ketika meteran dimatikan
+
+**Passenger_count** = Jumlah penumpang di kendaran. Data ini di-inputkan oleh pengemudi
+
+**Trip_distance** = Jarak perjalanan dalam (mil) dilaporkan oleh taksimeter
+
+**PULocationID** = Zona taksi TLC dimana taksimeter digunakan
+
+**DOLocationID** = Zona taksi TLC dimana taksimeter dilepaskan
+
+**RateCodeID** = Kode tarif akhir berlaku pada akhir perjalanan
+- 1 = Tarif standar
+- 2 = JFK
+- 3 = NewYork
+- 4 = Nassau dan Westchester
+- 5 = Tarif yang dinegoisasikan
+- 6 = Perjalanan kelompok
+
+**Store_and_fwd_flag** = bendera ini menunjukkan apakah catatan perjalanan disimpan dalam memori kendaraan sebelum dikirim ke vendor, alias, "simpan dan teruskan", karena kendaraan tidak memiliki koneksi ke server.
+- Y = menyimpan dan meneruskan perjalanan
+- N = bukan toko dan perjalanan lanjutan
+
+**Payment_type** = Kode numerik yang menandakan cara penumpang membayar perjalanan
+- 1 = Credit card
+- 2 = Cash
+- 3 = Tidak kembali
+- 4 = Ada konfilik
+- 5 = Unknown
+- 6 = Perjalanan tidak valid dan tidak akan dihitung atau diperhitungkan dalam analisis atau perhitungan statistik
+
+**Fare_amount** = Tarif waktu dan jarak dihitung berdasarkan argo. Biaya tambahan dan biaya tambahan lainnya. Saat ini, tarif ini hanya mencakup biaya jam sibuk dan biaya semalam sebesar $0.50 dan $1
+
+**MTA_tax** = Pajak MTA sebesar $0.50 secara otomatis dipicu berdasarkan tarif meteran yang digunakan
+
+**Improvement_surcharge** = Biaya tambahan perbaikan sebesar $0.30 dinilai pada perjalanan yang dielu-elukan di bendera turun. Biaya tambahan perbaikan mulai dikenakan pada tahun 2015
+
+**Tip_amount** = Kolom ini secara otomatis terisi untuk tip kartu kredit. Tip tunai tidak termasuk
+
+**Tolls_amount** = Jumlah total semua tol yang dibayarkan dalam perjalanan
+
+**Total_amount** = Jumlah total yang dibebankan kepada penumpang. Tidak termasuk top tunai
+
+**Trip_type** = Kode yang menunjukkan apakah perjanan tersebut merupakan perjalanan di jalanan atau pengiriman yang secara otomatis ditetapkan berdasarkan tarif meteran yang digunakan, namun dapat diubah oleh pengemudi.
+
+- 1 = Hujan es jalanan
+- 2 = Pengiriman
+
+**Congestion Surcharge** = Biaya kemacetan
+- $2.50 = untuk perjalanan *non-shared* dalam taksi
+- $2.50 untuk perjalanan non-shared (tidak berbagi) dalam taksi
+- $2.75 untuk perjalanan non-shared dalam For-Hire-Vehicles (termasuk limusin) dan Street-Hail Liveries **(Green Taxis)**
+- $0.75 untuk perjalanan bersama (shared-rides) dalam jenis kendaraan apapun
+- Tidak ada biaya tambahan untuk Access-A-Ride, atau perjalanan yang diatur oleh MTA lainnya.
+- Biaya kemacetan tidak dapat dikurangi dari pendapatan pengemudi, dan harus dibebankan kepada penumpang.
 
 
 
