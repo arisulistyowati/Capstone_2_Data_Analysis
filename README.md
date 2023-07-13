@@ -19,3 +19,22 @@ Perusahaan ingin mengetahui **bagaimana karakteristik dari penumpang taxi** sela
 2. Metode pembayaran apa yang paling sering digunakan penumpang?
 3. Apakah ada pola aktivitas yang berbeda antara *weekdays* dan *weekend*?  
 4. Bagaimanakah preferensi waktu penumpang?
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
